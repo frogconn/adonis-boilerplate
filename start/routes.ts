@@ -27,3 +27,7 @@ Route.get('/', async ({ view }) => {
 Route.get('/settings', async ({ view }) => {
   return view.render('settings')
 })
+
+Route.get('/help', async ({ view }) => {
+  return view.render('help')
+})
